@@ -29,7 +29,7 @@ a {
   display: none;
 }
 /* regole header */
-header nav .container-flex {
+header .container-flex {
   justify-content: space-between;
 }
 
@@ -126,4 +126,33 @@ div.jumbotron .form-box .button {
 }
 div.jumbotron .form-box .button.signup {
   background-color: white;
+}
+
+
+/* regole partner logo */
+
+#partner-logo {
+  background-color: #ccc;
+}
+#partner-logo h2 {
+  text-align: center;
+}
+#partner-logo .container-flex {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media all and (max-width: 992px) {
+  header nav ul {
+    display: none;
+  }
+
+  header nav .container-flex .hamburger {
+    display: block;
+  }
+  #partner-logo .container-flex{
+    flex-direction: column;
+  }
 }
