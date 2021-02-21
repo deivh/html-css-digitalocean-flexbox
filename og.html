@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- fontawesome lib incorporated -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- bootstrap lib incorporated css/js -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DigitalOcean</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- ++HEADER++ -->
+    <header>
+
+      <nav>
+                <nav class="navbar navbar-default navbar-fixed-top">
+                      <div class="container">
+                        <!-- bootstra's hamburger menu begin -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#">
+                              <img id="logo" src="img/logo.png" alt="Brand">
+                          </a>
+                        </div>
+                        <!-- bootstrap's hamburger menu end -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
+                              <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                      <li><a href="#">Action</a></li>
+                                      <li role="separator" class="divider"></li>
+                                  </ul>
+                              </li>
+                              <li><a href="#">Costumers</a></li>
+                              <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                      <li><a href="#">Action</a></li>
+                                      <li role="separator" class="divider"></li>
+                                  </ul>
+                              </li>
+                              <li><a href="#">Costumers</a></li>
+                          </ul>
+
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Docs</a></li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Login</a></li>
+                            <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
+                          </ul>
+                        </div>  <!-- everything inside goes in the hamburger menu when in xs-->
+                      </div>  <!--  -->
+                    </nav>
+            </nav>
+
+
+        <!-- jumbotron -->
+      <div class="jumbotrone">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <div class="text-cell">
+                <h1>The simplest cloud platform for developers & teams.</h1>
+                <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand</p>
+              </div>
+            </div>
+            <!-- text-cell end -->
+
+            <div class="col-xs-12 col-md-6">
+              <div class="form-cell">
+                <h2>Deploy your app in seconds.</h2>
+                <h2><a href="#"> Get started now.</a></h2>
+                <form class="" action="index.html" method="post">
+                  <input type="email" name="" value="" placeholder="Email">
+                  <input type="password" name="" value="" placeholder="Password">
+                </form>
+                <button type="button" class="blue white-txt" name="button">Create your account</button>
+                <button type="button" class="" name="button">
+                  <img src="img/google-icon.png" alt="logo google">
+                  <span>Sign up with google</span>
+                </button>
+                <p>By signing up you agree to the <a href="#">Terms of Service</a> </p>
+              </div>
+              <!-- form-cell -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sezione con loghi partner -->
+      <div class="customer-hub">
+        <p></p>
+        <div class="container">
+          <div class="row">
+            <div class="">
+              <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
+            </div>
+            <!-- riga con immagini -->
+            <div class="img-row">
+              <img src="img/docker.svg" alt="">
+              <img src="img/gitlab.svg" alt="">
+            </div>
+            <div class="img-row">
+              <img src="img/slack.svg" alt="">
+              <img src="img/hashicorp.svg" alt="">
+            </div>
+            <div class="img-row">
+              <img src="img/hashicorp.svg" alt="">
+              <img src="img/splunklogo.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <p>
+          <a href="#">View customer stories > </a>
+        </p>
+      </div>
+    </header>
+    <!-- ++MAIN++ -->
+    <main>
+
+      <!-- prima sezione -->
+      <section id="first-section">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="section-title">
+              <h2>Deploy and scale seamlessly</h2>
+              <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD enviroments.</p>
+            </div>
+          </div>
+          <div class="row">
+
+            <!-- riga con barra laterale e due sottosezioni una sotto l'altra -->
+            <aside class="col-xs-12 col-md-3">
+              <ul>
+                <li> <a href="#">Deploy</a> </li>
+                <li> <a href="#">Manage</a> </li>
+                <li> <a href="#">Secure</a> </li>
+                <li> <a href="#">Scale</a> </li>
+                <li> <a href="#">Monitor</a> </li>
+              </ul>
+            </aside>
+            <div class="col-xs-12 col-md-offset-1 col-md-7">
+              <div class="col-xs-12 col-md-6">
+                <img src="img/cluster-deploy.svg" alt="">
+                <h4>Cluster deployments</h4>
+                <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <img src="img/optimized-compute.svg" alt="">
+                <h4>Optimized compute types</h4>
+                <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-offset-1 col-md-7">
+              <div class="col-xs-12 col-md-6">
+                <img src="img/one-click.svg" alt="">
+                <h4>One-click apps</h4>
+                <p>Skip the install and configuration process with pre-built open source images supporting Rails,, Cassandra, Docker, and more.</p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <img src="img/global.svg" alt="">
+                <h4>Global Availability</h4>
+                <p>Deploy to any of our data center regions around the world</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- sezione gemella della quinta, con immagine al centro -->
+      <section id="centered-image-section">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="section-title">
+              <h2>Designed for Developers</h2>
+              <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="centered-image">
+                <a href="#"> <i class="fas fa-chevron-left lighter"></i></a>
+                <img src="img/screenshot-create-droplet-12336b41.jpg" alt="">
+                <a href="#"> <i class="fas fa-chevron-right"></i></a>
+                <div class="slide-selector">
+                <a href="#">  <i class="fas fa-circle"></i> </a>
+                <a href="#">  <i class="far fa-circle"></i> </a>
+                <a href="#">  <i class="far fa-circle"></i> </a>
+                <a href="#">  <i class="far fa-circle"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- terza section informativa -->
+      <section id="third-section">
+        <div class="col-xs-12">
+          <div class="section-title">
+            <h2>The features your business needs</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <div class="">
+                <img src="img/pred-pricing.svg" alt="">
+                <h4>Predictable pricing</h4>
+                <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing strcture</p>
+                <a href="#">Pricing ></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="">
+                <img src="img/world-class.svg" alt="">
+                <h4>World-class service</h4>
+                <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
+                <a href="#">Support > </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="">
+                <img src="img/reliable-platform.svg" alt="">
+                <h4>Reliable platform</h4>
+                <p>More than 100.000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                <a href="#">Security ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- quarta section con tabelle -->
+      <section id="table-section">
+        <div class="col-xs-12">
+          <div class="section-title">
+            <h2>Service your customers around the world from 12 regions</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6">
+              <div class="">
+                <table>
+                  <tr>
+                    <td>AMS2</td>
+                    <td class="city">Amsterdam, Netherlands</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>AMS3</td>
+                    <td class="city">Amsterdam, Netherlands</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>BLR1</td>
+                    <td class="city">Bangalore, India</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>FRA1</td>
+                    <td class="city">Frankfurt, Germania</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>LON1</td>
+                    <td class="city">London, UK</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr class="no-border">
+                    <td>NYC1</td>
+                    <td class="city">New York, Usa</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+              <div class="">
+                <table>
+                  <tr>
+                    <td>AMS2</td>
+                    <td class="city">Amsterdam, Netherlands</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>AMS3</td>
+                    <td class="city">Amsterdam, Netherlands</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>BLR1</td>
+                    <td class="city">Bangalore, India</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>FRA1</td>
+                    <td class="city">Frankfurt, Germania</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td>LON1</td>
+                    <td class="city">London, UK</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                  <tr class="no-border">
+                    <td>NYC1</td>
+                    <td class="city">New York, Usa</td>
+                    <td><a href="#">Test Speed ></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- quinta section -->
+      <section id="fifth-section">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="section-title">
+              <h2>Development teams love Digital Ocean</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="centered-image">
+                <div class="box-vm-ms">
+                  <a href="#"> <i class="fas fa-chevron-left lighter"></i></a>
+                  <div class="box-ms">
+                    <img src="img/rockerbox-logo.webp" alt="">
+                    <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
+                    <h5>Rick O'Toole</h5>
+                    <h5>Co-founder and cto</h5>
+                    <a href="#">Read Story > </a>
+                  </div>
+                  <a href="#"> <i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="slide-selector">
+                  <a href="#">  <i class="fas fa-circle"></i> </a>
+                  <a href="#">  <i class="far fa-circle"></i> </a>
+                  <a href="#">  <i class="far fa-circle"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        </section>
+
+      <!-- sezione pulsantone -->
+      <section id="button-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Get Started Now</h2>
+              <a href="#">Create your account</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ++FOOTER++ -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-4">
+            <div class="contacts-box">
+              <img src="img/logo-small.svg" alt="">
+              <p>@2018 DigitalOcean,LLC. All rights Reserved</p>
+              <p>Prooudly made in NY</p>
+            </div>
+            <div class="icon-bar-ms">
+              <a href="#"> <i class="fab fa-twitter"></i> </a>
+              <a href="#"> <i class="fab fa-facebook-square"></i> </a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+              <a href="#"> <i class="fab fa-youtube"></i> </a>
+              <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-2">
+            <ul>
+              <li> <a class="bold-ms" href="#">Company</a> </li>
+              <li> <a href="#">About</a> </li>
+              <li> <a href="#">Leadership</a> </li>
+              <li> <a href="#">Link</a> </li>
+              <li> <a href="#">Blog</a> </li>
+              <li> <a href="#">Careers</a> </li>
+              <li> <a href="#">Partner Network</a> </li>
+              <li> <a href="#">Referral Program</a> </li>
+              <li> <a href="#">Events</a> </li>
+              <li> <a href="#">Press</a> </li>
+              <li> <a href="#">Legal & Security</a> </li>
+
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-2">
+            <ul>
+              <li> <a class="bold-ms" href="#">Products</a> </li>
+              <li> <a href="#">Droplets</a> </li>
+              <li> <a href="#">Spaces</a> </li>
+              <li> <a href="#">Kubernetes</a> </li>
+              <li> <a href="#">Load balancers</a> </li>
+              <li> <a href="#">Block Storage</a> </li>
+              <li> <a href="#">Tools & Integrations</a> </li>
+              <li> <a href="#">One.Click Apps</a> </li>
+              <li> <a href="#">API</a> </li>
+              <li> <a href="#">Pricing</a> </li>
+              <li> <a href="#">Documentation</a> </li>
+              <li> <a href="#">Release Notes</a> </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-2">
+            <ul>
+              <li> <a class="bold-ms" href="#">Community</a> </li>
+              <li> <a href="#">Tutorials</a> </li>
+              <li> <a href="#">Meetups</a> </li>
+              <li> <a href="#">Q&A</a> </li>
+              <li> <a href="#">Write for Donations</a> </li>
+              <li> <a href="#">Droplets for Demos</a> </li>
+              <li> <a href="#">Hatch</a> </li>
+              <li> <a href="#">Show Swag</a> </li>
+              <li> <a href="#">Research Program</a> </li>
+              <li> <a href="#">Currents Research</a> </li>
+              <li> <a href="#">Open Source</a> </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-2">
+            <ul>
+              <li> <a class="bold-ms" href="#">Support</a> </li>
+              <li> <a href="#">Contact support</a> </li>
+              <li> <a href="#">FAQ</a> </li>
+              <li> <a href="#">Network Status</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

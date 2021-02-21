@@ -9,3 +9,121 @@
   margin: 0 auto;
   display: flex;
 }
+.flex-cell {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.dropdown {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+/* regole header */
+header nav .container-flex {
+  justify-content: space-between;
+}
+
+header nav div img {
+  max-width: 250px;
+}
+header nav div.flex-cell ul li {
+  margin: 3px;
+}
+
+header nav .flex-cell ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .flex-cell ul li.dm {
+  position: relative;
+}
+
+header nav .flex-cell ul li.dm:hover .dropdown{
+  display: block;
+  position:absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #ccc;
+  width: 100%;
+}
+
+@media all and (max-width: 992px) {
+  header nav ul {
+    display: none;
+  }
+
+  header nav .container-flex .hamburger {
+    display: block;
+  }
+}
+/* regole jumbotron */
+div.jumbotron {
+  background-image: url(../img/jumbo.svg);
+  object-fit: cover;
+}
+
+div.jumbotron .container-flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+div.jumbotron .info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+
+div.jumbotron .info-box , div.jumbotron .form-box {
+  flex-basis: 50%;
+}
+
+div.jumbotron .info-box h2 {
+  font-size: 40px;
+}
+
+div.jumbotron .info-box p {
+  font-size: 20px;
+}
+
+div.jumbotron .form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+div.jumbotron .form-box input {
+  width: 100%;
+}
+
+div.jumbotron .form-box img {
+  width: 15px;
+}
+
+div.jumbotron .form-box .button {
+  display: flex;
+  background-color: #006aff;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+div.jumbotron .form-box .button.signup {
+  background-color: white;
+}

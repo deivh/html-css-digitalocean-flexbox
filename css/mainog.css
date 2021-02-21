@@ -1,0 +1,321 @@
+/* here goes the font */
+
+
+
+/* regole generiche di pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Inter-Bold','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
+}
+
+/* regole ricorrenti di pagina */
+.section-title {
+  text-align: center;
+  margin: 20px 0;
+}
+/* regole header */
+
+header > nav > nav {
+  background-color: #fff !important;
+}
+
+header nav #logo {
+  max-width: 200px;
+}
+
+
+
+header .jumbotrone {
+  margin-top: 52px;
+  background-image: url(../img/jumbo.svg);
+}
+
+header .jumbotrone .text-cell , header .jumbotrone .form-cell{
+  color: white;
+  padding: 30px 10px;
+}
+
+header .jumbotrone .text-cell h1 {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+header .jumbotrone .text-cell p {
+  font-size: 3rem;
+}
+header .jumbotrone .form-cell {
+  text-align: center;
+  margin: 50px 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px grey;
+  color: #000;
+}
+header .jumbotrone .form-cell h2 {
+  padding: 0 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+header .jumbotrone input , header .jumbotrone button {
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+header .jumbotrone button.blue {
+    background-color: #006aff;
+}
+header .jumbotrone button.white-txt {
+  color: white;
+  font-weight: bold;
+}
+
+header .jumbotrone button img {
+  float: left;
+  margin-left: 5px;
+}
+
+header .jumbotrone button {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+header .jumbotrone button img {
+  height: 20px;
+  width: auto;
+}
+
+header .customer-hub {
+  background-color: #f3f5f9;
+  text-align: center;
+}
+header .customer-hub .img-row {
+display: inline-block;
+}
+
+/* regole main */
+/* first section */
+main #first-section {
+  margin: 50px 0;
+}
+
+main #first-section aside {
+  margin: 20px 0;
+}
+main #first-section aside ul {
+  list-style-type: none;
+}
+main #first-section aside ul li {
+  padding: 5px;
+  border-left: 1px solid grey;
+}
+
+main #first-section aside ul li {
+  text-decoration: none;
+  color: black;
+}
+
+main #first-section aside ul li:hover {
+  background-color: #f3f5f9;
+}
+/* first section end */
+
+/* centered image section (sections 2-5) */
+main #centered-image-section {
+  background-color: #f3f5f9;
+}
+
+main #centered-image-section  img {
+  max-width: 500px;
+  height: auto;
+}
+main #centered-image-section .centered-image {
+  text-align: center;
+}
+main #centered-image-section .centered-image i ,  main #fifth-section .centered-image i {
+  padding: 0 20px;
+  font-size: 30px;
+  color: black;
+}
+
+main #centered-image-section .centered-image i.lighter , main #fifth-section .centered-image i.lighter{
+  color: lightgrey;
+}
+
+main #centered-image-section .centered-image i:hover ,  main #fifth-section .centered-image i:hover{
+  font-weight: bold;
+}
+main #centered-image-section .centered-image .slide-selector , main #fifth-section .centered-image .slide-selector{
+  text-align: center;
+  margin: 30px 0 60px 0;
+}
+main #centered-image-section .centered-image .slide-selector i , main #fifth-section .centered-image .slide-selector i{
+  color: #0069ff;
+}
+
+/* regole terza section */
+main #third-section {
+  margin: 50px 0;
+}
+
+
+
+/* regole quarta section */
+main #table-section {
+  background: rgb(15,11,146);
+  background: linear-gradient(90deg, rgba(15,11,146,0.9444911753764006) 0%, rgba(2,2,193,1) 78%);
+  color: white;
+  margin: 40px 0;
+}
+main #table-section table {
+  width: 100%;
+}
+
+main #table-section table tr {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid white;;
+}
+main #table-section table tr.no-border {
+  border: 0;
+}
+main #table-section table td {
+  width: 25%;
+  padding: 10px 15px;
+}
+main #table-section table td.city {
+  width: 50%;
+  padding: 10px 15px;
+}
+
+main #table-section table td a {
+  color: lightblue;
+  font-weight: bold;
+}
+
+/* regole quinta section */
+
+main #fifth-section{
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+main #fifth-section .box-ms {
+  display: inline-block;
+  max-width: 500px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 50px 5px;
+}
+
+main #fifth-section .box-ms img {
+  margin-top: 50px;
+}
+
+main #fifth-section .box-ms p{
+padding: 10px 0;
+}
+
+main #fifth-section .box-ms h5:first-of-type {
+  font-weight: bold;
+}
+main #fifth-section .box-ms h5:last-of-type {
+  color: rgba(0,0,0,0.50);
+  font-size: 10px;
+}
+
+main #fifth-section .box-vm-ms a i {
+  position: relative;
+  bottom: 50px;
+}
+
+main #fifth-section .box-ms a{
+  display: inline-block;
+  margin-bottom: 50px;
+}
+/* regole sesta section/pulsantone  */
+main #button-section {
+  background-color: #0069ff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+main #button-section h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main #button-section a {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+/* regole footer */
+footer {
+  background-color: #010e28;
+  color: white;
+}
+
+footer .contacts-box {
+  margin-top: 30px;
+}
+
+footer .contacts-box , footer .icon-bar-ms a i {
+  color: rgba(255,255,255,0.50);
+}
+
+footer ul {
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+footer ul li .bold-ms {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.50);
+}
+
+footer .icon-bar-ms a i {
+  padding: 5px;
+}
+/* media queries */
+@media all and (max-width:768px) {
+  header .customer-hub .img-row {
+    display: block;
+    width: 100%;
+  }
+
+  main #centered-image-section img {
+    width:80%;
+    height: auto;
+  }
+
+  main #table-section table {
+    width: 100%;
+  }
+
+  i.fas.fa-chevron-left , i.fas.fa-chevron-right {
+    display: none;
+  }
+}

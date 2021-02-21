@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title></title>
+    <title>Digital Flexbox</title>
   </head>
   <body>
     <header>
@@ -15,26 +15,61 @@
 
         <div class="flex-cell">
           <ul>
-            <li>Products</li>
-            <li>a2</li>
-            <li>a3</li>
-            <li>Pricing</li>
+            <li class="dm">
+              <a href="#">Products </a>
+              <i class="fas fa-chevron-down"></i>
+              <div class="dropdown">
+                QUESTO è UN DROPDOWN MENU
+              </div>
+            </li>
+            <li> <a href="#">Customers </a> </li>
+            <li class="dm">
+              <a href="#">Community</a>
+              <i class="fas fa-chevron-down"></i>
+              <div class="dropdown">
+                QUESTO è UN DROPDOWN MENU
+              </div>
+            </li>
+            <li> <a href="#">Pricing</a> </li>
           </ul>
         </div>
         <div class="flex-cell">
           <ul>
-            <li>b1</li>
-            <li>b2</li>
-            <li>b3</li>
-            <li>b4</li>
+            <li> <a href="">Docs</a> </li>
+            <li class="dm">
+              <a href="#"> Support</a>
+              <i class="fas fa-chevron-down"></i>
+              <div class="dropdown">
+                QUESTO è UN DROPDOWN MENU
+              </div>
+            </li>
+            <li> <a href="#">Login</a> </li>
+            <li> <a class="button signin" href="#"> Sign In </a> </li>
           </ul>
         </div>
         <div class="hamburger">
-
+          <i class="fas fa-bars"></i>
         </div>
       </nav>
       <div class="jumbotron">
-
+        <div class="container-flex">
+          <div class="info-box">
+            <h1>The simplest cloud platform for developers & teams.</h1>
+            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand</p>
+          </div>
+          <div class="form-box">
+            <h2>Deploy your app in seconds.</h2>
+            <h2> <a href="#">Get started now.</a> </h2>
+            <input type="email" name="" value="" placeholder="Email">
+            <input type="password" name="" value="" placeholder="Password">
+            <a class="button" href="#"> Create Your Account </a>
+            <div class="button signup">
+              <img src="img/google-icon.png" alt="">
+              <a class="button" href="#"></a>
+            </div>
+            <h5> By signing up you agree to the <a href="#">Terms of Service</a> </h5>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -42,7 +77,7 @@
       <section id="partner-logo">
         <h2></h2>
         <div class="container-flex">
-          
+
         </div>
         <h3></h3>
       </section>
